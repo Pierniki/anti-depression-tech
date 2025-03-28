@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Lock files
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Log files
+*.log
+
+# Cache directories
+.cache/
+.next/ 
