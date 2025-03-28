@@ -40,7 +40,7 @@ export default function WaterTracker() {
   };
 
   return (
-    <Card className="mx-auto w-24 overflow-hidden border-none bg-neutral-100 pb-0">
+    <Card className="mx-auto w-24 border-none bg-neutral-100 pb-0 overflow-auto">
       <CardContent className="flex flex-col items-center space-y-4 p-0">
         <div className="mb-4 flex flex-col-reverse items-center space-y-2 space-y-reverse">
           {[...Array(MAX_DROPLETS)].map((_, index) => (
